@@ -1,0 +1,50 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+
+  /*
+    1. Create a 5x2 grid — explicit grid
+    2. Create a 4x2 grid — implicit grid
+    3. fr unit
+    4. repeat()
+    5. control implicit grid track
+   */
+
+  /* #region */
+  /* grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 200px 200px; */
+
+  /* grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 200px 200px; */
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px; */
+
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px; */
+
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px; */
+  /* #endregion */
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}

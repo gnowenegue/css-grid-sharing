@@ -1,0 +1,77 @@
+html,
+body {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  /* background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*eo3idbKBbt1JMpc_QQn1Zw.png); */
+  background-repeat: no-repeat;
+  width: 683px;
+  height: 605px;
+  box-sizing: border-box;
+  padding-left: 28px;
+  padding-top: 32px;
+  padding-right: 22px;
+  padding-bottom: 17px;
+
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  grid-template-areas:
+    "one one two two"
+    "three three four four"
+    "five six seven nine"
+    "five six eight nine";
+}
+
+.item {
+  background-color: white;
+  opacity: 1;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.item-1 {
+  background-color: red;
+  grid-area: one;
+}
+
+.item-2 {
+  grid-area: two;
+}
+
+.item-3 {
+  grid-area: three;
+}
+
+.item-4 {
+  grid-area: four;
+}
+
+.item-5 {
+  background-color: yellow;
+  grid-area: five;
+}
+
+.item-6 {
+  grid-area: six;
+}
+
+.item-7 {
+  background-color: blue;
+  grid-area: seven;
+}
+
+.item-8 {
+  grid-area: eight;
+}
+
+.item-9 {
+  grid-area: nine;
+}

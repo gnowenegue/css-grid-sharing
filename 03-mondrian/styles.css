@@ -1,0 +1,59 @@
+html,
+body {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*eo3idbKBbt1JMpc_QQn1Zw.png);
+  background-repeat: no-repeat;
+  width: 683px;
+  height: 605px;
+  box-sizing: border-box;
+  padding-left: 28px;
+  padding-top: 32px;
+  padding-right: 22px;
+  padding-bottom: 17px;
+
+  display: grid;
+  gap: 10px;
+}
+
+.item {
+  background-color: white;
+  opacity: 0.75;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.item-1 {
+  background-color: red;
+}
+
+.item-2 {
+}
+
+.item-3 {
+}
+
+.item-4 {
+}
+
+.item-5 {
+  background-color: yellow;
+}
+
+.item-6 {
+}
+
+.item-7 {
+  background-color: blue;
+}
+
+.item-8 {
+}
+
+.item-9 {
+}

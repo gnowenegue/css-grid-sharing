@@ -1,0 +1,31 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+
+  /* #region */
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  /* #endregion */
+}
+
+.item {
+  background-color: white;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}

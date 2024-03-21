@@ -1,0 +1,32 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  /* #region */
+  /* display: grid;
+  place-items: center; */
+  /* #endregion */
+}
+
+.item {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
